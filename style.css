@@ -1,0 +1,106 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #36d1dc,#5b86e5);
+}
+
+.navbar {
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+    font-size: 1rem;
+}
+.nav-links  a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#icon1 {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+
+h1 {
+    margin: 3rem 20rem;
+
+
+}
+
+
+h3 {
+    margin-left: 10rem;
+    font-size: 2rem;
+}
+.todolines {
+    width: 25rem;
+    height: 25rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 24rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+
+#butn {
+    height:1.75rem ;
+    width: 4.5rem;
+    border-radius: 40px;
+    margin-left: 9px;
+    background-color: transparent;
+    color: black;}
+    
+
+#butn:hover {
+background-color: black;
+color: white;
+transition: all ease-in 0.5s;
+}
+
+ul { margin-left: 90px;
+margin-top: 30px;}
+
+
+
+.btn {
+    height:1.75rem ;
+    width: 4.5rem;
+    border-radius: 40px;
+    margin-left: 9px;
+    background-color: transparent;
+    color: black;}
+    
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: all ease-in 0.5s;
+    }
+    
+     
